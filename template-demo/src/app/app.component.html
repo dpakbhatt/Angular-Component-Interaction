@@ -1,0 +1,22 @@
+<div style="text-align: center">
+  <h2>
+    {{pageTitle}}
+  </h2>
+</div>
+<img [src]="imgUrl" alt="Image"><br />
+<button (click)="increment()">Click</button>
+<p>Clicked {{count}} times.</p>
+<div>
+  <input #nameRef type="text" [(ngModel)]="name">
+  <p>Welcome {{name}}</p>
+</div>
+
+<div>
+  <input type="text" [ngModel]="userName" (ngModelChange)="greet($event)">
+  <p>Welcome {{ userName}}</p>
+</div>
+
+<div>
+  <input type="text" [(ngModel)]="customerName">
+  <p>Welcome {{customerName}}</p>
+</div>
