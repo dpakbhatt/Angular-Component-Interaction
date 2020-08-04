@@ -1,7 +1,7 @@
 # Angular-Component-Interaction
 > This repository contains the codes by which how we can interact with the following:
 - [X] Class and Template interaction in same Component.
-- [ ] Passing Data from Parent to Child Component.
+- [X] Passing Data from Parent to Child Component.
 - [ ] Passing data from Child to Parent Component.
 - [ ] Use of services for interaction.
 
