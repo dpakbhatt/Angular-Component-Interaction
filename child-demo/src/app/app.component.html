@@ -1,0 +1,18 @@
+<h1>Parent Component</h1>
+<!--
+<app-child [loggedIn]="logIn"></app-child>
+
+<app-child></app-child>
+-->
+<div>
+  <button (click)="logIn=true">Log In</button>
+  <button (click)="logIn=false">Log Out</button><br /><br />
+  {{logIn}}
+</div>
+
+<app-child #child [loggedIn]="logIn"></app-child>
+<br />
+{{child.name}}
+<div>
+  <button (click)="child.greetNow()">Greet</button>
+</div>
