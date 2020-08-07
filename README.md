@@ -3,7 +3,7 @@
 - [X] Class and Template interaction in same Component.
 - [X] Passing Data from Parent to Child Component.
 - [X] Passing data from Child to Parent Component.
-- [ ] Use of services for interaction.
+- [X] Use of services for interaction.
 
 > And in this repo I am using all the possible way to interact with each other like:
 - Binding.
